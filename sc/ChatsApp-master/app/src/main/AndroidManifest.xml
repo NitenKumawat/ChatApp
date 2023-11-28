@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.niten_kumawat.pigeon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Kabutar"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.pigeon"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.niten_kumawat.pigeon.Activities.ChatActivity"></activity>
+        <activity android:name="com.niten_kumawat.pigeon.Activities.SetupProfileActivity" />
+        <activity
+            android:name="com.niten_kumawat.pigeon.Activities.OTPActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.niten_kumawat.pigeon.Activities.PhoneNumberActivity"
+            android:windowSoftInputMode="stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.niten_kumawat.pigeon.Activities.MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

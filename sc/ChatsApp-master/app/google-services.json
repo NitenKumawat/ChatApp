@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "426021835099",
+    "project_id": "pigeon-c3p853sa36",
+    "storage_bucket": "pigeon-c3p853sa36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426021835099:android:f4cc2c1aa492d71cad4a7e",
+        "android_client_info": {
+          "package_name": "com.niten_kumawat.pigeon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426021835099-f2qbfg15ql66uorio910v3g9e432n6hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhlhbYyb1hwjlbFuavw3Tn5OINxlqKaKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426021835099-f2qbfg15ql66uorio910v3g9e432n6hc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
